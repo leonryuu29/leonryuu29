@@ -47,7 +47,7 @@
 
 **中文** — Native  
 **English** — Study & code  
-**Deutsch** — Learning every day  
+**Deutsch** — C1 Niveau
 **日本語** — ちょっとだけ
 
 ### A few things I've made
