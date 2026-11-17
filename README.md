@@ -28,7 +28,7 @@
 |:--|:--|
 | **Code** | Python · TypeScript · C# · Java · JavaScript · C · SQL |
 | **Web** | Next.js · NestJS · Spring Boot · Vue 3 · REST APIs · MongoDB · MySQL |
-| **Data & AI** | OpenCV · YOLOv3 · SORT · Redis · JSON Schema · LLM prototypes · pytest |
+| **Data & AI** | OpenCV · Redis · JSON Schema · LLM prototypes · pytest |
 | **Embedded** | STM32F103 · STM32CubeMX · HAL · GPIO · I2C · interrupts |
 | **Tools** | Git · GitHub Actions · Linux · Docker · Playwright · OpenAPI |
 
