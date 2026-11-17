@@ -70,7 +70,7 @@
 
   <br>
 
-  Turning completed coursework into clear demos, while getting better at computer vision, full-stack engineering, German, and embedded systems — and keeping everything a little fun.
+  Turning completed coursework into clear demos, while getting better at AI , Data Science, full-stack engineering, German, and embedded systems — and keeping everything a little fun.
 </details>
 
 <p align="center">
