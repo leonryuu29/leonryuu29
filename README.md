@@ -17,7 +17,7 @@
 ### About me
 
 - 🎓 Studying software engineering in Germany
-- 🧩 Interested in data, AI, web and embedded systems
+- 🧩 Interested in computer vision, full-stack products, data and embedded systems
 - 🎮 Rhythm-game breaks, anime, and making random ideas real
 
 <br clear="right">
@@ -26,16 +26,20 @@
 
 | | |
 |:--|:--|
-| **Code** | Python · C# · Java · JavaScript · C · SQL |
-| **Web** | Spring Boot · Vue 3 · REST APIs · MySQL · CQRS & ReactiveX basics |
-| **Data & AI** | Redis · data modelling · JSON Schema · LLM prototypes · pytest |
+| **Code** | Python · TypeScript · C# · Java · JavaScript · C · SQL |
+| **Web** | Next.js · NestJS · Spring Boot · Vue 3 · REST APIs · MongoDB · MySQL |
+| **Data & AI** | OpenCV · YOLOv3 · SORT · Redis · JSON Schema · LLM prototypes · pytest |
 | **Embedded** | STM32F103 · STM32CubeMX · HAL · GPIO · I2C · interrupts |
-| **Tools** | Git · GitHub Actions · Linux · Docker · Playwright |
+| **Tools** | Git · GitHub Actions · Linux · Docker · Playwright · OpenAPI |
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="C sharp">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS">
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV">
   <img src="https://img.shields.io/badge/Vue_3-42B883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue 3">
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot">
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis">
@@ -45,9 +49,9 @@
 
 ### Languages
 
-**中文** — Native  
-**English** — Study & code  
-**Deutsch** — C1 Niveau  
+**中文** — Native<br>
+**English** — Study & code<br>
+**Deutsch** — C1 Niveau<br>
 **日本語** — ちょっとだけ
 
 ### A few things I've made
@@ -56,13 +60,16 @@
 |:--|:--|
 | **[Big-Data-Praktikum](https://github.com/leonryuu29/Big-Data-Praktikum)** | Redis + Python data workflow over Yelp data, autocomplete with `ZRANGEBYLEX`, 23 automated tests, and GitHub Actions against Redis 5/7. |
 | **[ipm-datenerhebung](https://github.com/leonryuu29/ipm-datenerhebung)** | Data contract and collection pipeline for an LLM-assisted product prototype: JSON Schema, synthetic ERP data, Excel → CSV/JSON conversion, and automated tests. |
+| **[AniTrack](https://github.com/leonryuu29/Anitrack)** | Full-stack anime library with Next.js, NestJS, MongoDB, bilingual metadata, a Berlin-time timetable, activity heatmaps, and OpenAPI contract tests. |
+| **[YOLOv3 Traffic Counter](https://github.com/leonryuu29/yolov3-traffic-counter)** | OpenCV DNN + SORT vehicle detection pipeline with line-crossing counts, speed estimation, a technical paper, and reproducible model setup. |
+| **[Particle Swarm](https://github.com/leonryuu29/particle-swarm-game)** | Browser game where attraction and repulsion fields steer a 1,000-particle swarm; built with Phaser 3 and verified in headless Edge. |
 
 <details>
   <summary><strong>Current focus</strong> 🌱</summary>
 
   <br>
 
-  Getting better at German, data engineering, AI integration, and embedded systems — while trying to keep everything a little fun.
+  Turning completed coursework into clear demos, while getting better at computer vision, full-stack engineering, German, and embedded systems — and keeping everything a little fun.
 </details>
 
 <p align="center">
