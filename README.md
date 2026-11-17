@@ -60,7 +60,7 @@
 |:--|:--|
 | **[Big-Data-Praktikum](https://github.com/leonryuu29/Big-Data-Praktikum)** | Redis + Python data workflow over Yelp data, autocomplete with `ZRANGEBYLEX`, 23 automated tests, and GitHub Actions against Redis 5/7. |
 | **[ipm-datenerhebung](https://github.com/leonryuu29/ipm-datenerhebung)** | Data contract and collection pipeline for an LLM-assisted product prototype: JSON Schema, synthetic ERP data, Excel → CSV/JSON conversion, and automated tests. |
-| **[AniTrack](https://github.com/leonryuu29/Anitrack)** | Full-stack anime library with Next.js, NestJS, MongoDB, bilingual metadata, a Berlin-time timetable, activity heatmaps, and OpenAPI contract tests. |
+| **[AniTrack](https://github.com/leonryuu29/anitrack-portfolio)** | Full-stack anime library with Next.js, NestJS, MongoDB, bilingual metadata, a Berlin-time timetable, activity heatmaps, and OpenAPI contract tests. |
 | **[YOLOv3 Traffic Counter](https://github.com/leonryuu29/yolov3-traffic-counter)** | OpenCV DNN + SORT vehicle detection pipeline with line-crossing counts, speed estimation, a technical paper, and reproducible model setup. |
 | **[Particle Swarm](https://github.com/leonryuu29/particle-swarm-game)** | Browser game where attraction and repulsion fields steer a 2,145-particle swarm; built with Phaser 3 and verified in headless Edge. |
 
