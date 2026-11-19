@@ -78,6 +78,7 @@
   <br>
 
   Turning completed coursework into clear demos while getting better at AI, data science, full-stack engineering, German and embedded systems — and keeping everything a little fun.
+  My private Translivestudio(German to chinese) in mobile and Pc end https://live-deutsch-studio.vercel.app/ 
 </details>
 
 <p align="center">
