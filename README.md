@@ -32,7 +32,7 @@
 | **Web** | Next.js · NestJS · Spring Boot · Vue 3 · REST APIs · MongoDB · MySQL |
 | **Data** | Redis · Cassandra · CQL · data modelling · JSON Schema · pytest |
 | **AI & Vision** | OpenCV · computer vision · LLM prototypes · Vitest |
-| **AI Agents** | MCP servers (FastMCP) · AstrBot · DeepSeek · Claude · Codex · tool design · low-token automation |
+| **AI Agents** | MCP servers (FastMCP) · AstrBot · Claude · tool design · low-token automation |
 | **Cloud & Ops** | Ubuntu server · systemd · cron · SSH tunnels · IMAP · self-healing watchdog · acceptance scripts |
 | **Embedded** | STM32F103 · STM32CubeMX · HAL · GPIO · I2C · interrupts |
 | **Tools** | Git · GitHub Actions · Linux · Docker · Playwright · OpenAPI |
