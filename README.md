@@ -6,7 +6,7 @@
     <td width="58%" align="center" valign="middle">
       <h1>𝑳𝒆𝒐𝒏𝒓𝒚𝒖𝒖 ♫</h1>
       <p><i>Software engineering student in Germany.<br>I build, break, fix, and write it down.</i></p>
-      <p>你好，我是 Leonryuu。喜欢把想法做成能跑起来的小项目，也喜欢把复杂的问题整理成清楚的说明。</p>
+      <p>Hi, I'm Leonryuu. I like turning ideas into small projects that can actually run, and I also enjoy organizing complex problems into clear explanations.</p>
     </td>
     <td width="21%" align="center" valign="middle">
       <img src="https://static.wikia.nocookie.net/maimai/images/2/29/Character_Salt_Maimai_DX_PRiSM_PLUS.png/revision/latest?cb=20250528010041" width="120" alt="Salt from maimai">
