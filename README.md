@@ -67,7 +67,7 @@
 
 | Project | What's inside |
 |:--|:--|
-| **[☁️ Cloud Server](https://github.com/leonryuu29/cloud-server)** · *new* | A 2-vCPU cloud VM turned into a self-healing AI assistant: AstrBot + DeepSeek + a hand-written **MCP server (21 tools)**, a zero-token watchdog that re-sends missed pushes, an important-mail doorbell (Gmail → WEB.DE → QQ), MCP-over-SSH collaboration with Claude / Codex, and a 26-check acceptance script. 10 chapters of docs. |
+| **[☁️ Cloud Server](https://github.com/leonryuu29/cloud-server)** ·  | A 2-vCPU cloud VM turned into a self-healing AI assistant: AstrBot + DeepSeek + a hand-written **MCP server (21 tools)**, a zero-token watchdog that re-sends missed pushes, an important-mail doorbell (Gmail → WEB.DE → QQ), MCP-over-SSH collaboration with Claude / Codex, and a 26-check acceptance script. 10 chapters of docs. |
 | **[AniTrack](https://github.com/leonryuu29/Anitrack)** | Full-stack anime library with Next.js, NestJS and MongoDB: bilingual metadata, Berlin-time timetable, activity heatmaps, OpenAPI contracts and 26 automated checks. |
 | **[Big-Data-Praktikum](https://github.com/leonryuu29/Big-Data-Praktikum)** | Redis + Yelp and Cassandra + MovieLens workflows: query-driven tables, CQL, autocomplete, CI and 77 passing tests across both practicals. |
 | **[YOLOv3 Traffic Counter](https://github.com/leonryuu29/yolov3-traffic-counter)** | OpenCV DNN + SORT vehicle pipeline with line-crossing counts, speed estimation, tests, a technical paper and reproducible model setup. |
