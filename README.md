@@ -52,7 +52,9 @@
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=333333" alt="Linux">
   <img src="https://img.shields.io/badge/Ubuntu_Server-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu Server">
   <img src="https://img.shields.io/badge/MCP-8A2BE2?style=flat-square&logo=anthropic&logoColor=white" alt="MCP">
-  <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square" alt="DeepSeek">
+  <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square&logo=deepseek&logoColor=white" alt="DeepSeek">
+  <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude">
+  <img src="https://img.shields.io/badge/Codex-412991?style=flat-square&logo=openai&logoColor=white" alt="Codex">
   <img src="https://img.shields.io/badge/systemd_·_cron-333333?style=flat-square&logo=linux&logoColor=white" alt="systemd and cron">
 </p>
 
@@ -85,10 +87,10 @@
 ### 🤖 AI usage
 
 <p align="center">
-  <img src="assets/ai-usage.svg" width="820" alt="AI token dashboard: Codex 2.33B tokens (98% cache hit), QQ bot 624K input tokens (87% cache hit), zero-token automation">
+  <img src="assets/ai-usage.svg" width="820" alt="AI token dashboard: Claude 100M+ tokens in one build session, Codex 2.33B tokens (98% cache hit), QQ bot 624K input tokens (87% cache hit), zero-token automation">
 </p>
 
-<p align="center"><sub>Real numbers from local Codex session logs and the bot's own usage table · Claude usage isn't logged locally, so it isn't counted here.</sub></p>
+<p align="center"><sub>Real numbers: Claude from the session's own usage meter (one Cloud Server build session, counted since its last summary, so a lower bound) · Codex from local session logs · the bot from its own usage table.</sub></p>
 
 <details>
   <summary><strong>Current focus</strong> 🌱</summary>
