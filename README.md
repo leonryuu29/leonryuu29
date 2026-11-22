@@ -54,7 +54,6 @@
   <img src="https://img.shields.io/badge/MCP-8A2BE2?style=flat-square&logo=anthropic&logoColor=white" alt="MCP">
   <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square&logo=deepseek&logoColor=white" alt="DeepSeek">
   <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude">
-  <img src="https://img.shields.io/badge/Codex-412991?style=flat-square&logo=openai&logoColor=white" alt="Codex">
   <img src="https://img.shields.io/badge/systemd_·_cron-333333?style=flat-square&logo=linux&logoColor=white" alt="systemd and cron">
 </p>
 
@@ -69,7 +68,7 @@
 
 | Project | What's inside |
 |:--|:--|
-| **[☁️ Cloud Server](https://github.com/leonryuu29/cloud-server)** ·  | A 2-vCPU cloud VM turned into a self-healing AI assistant: AstrBot + DeepSeek + a hand-written **MCP server (21 tools)**, a zero-token watchdog that re-sends missed pushes, an important-mail doorbell (Gmail → WEB.DE → QQ), MCP-over-SSH collaboration with Claude / Codex, and a 26-check acceptance script. 10 chapters of docs. |
+| **[☁️ Cloud Server](https://github.com/leonryuu29/cloud-server)** | A 2-vCPU cloud VM turned into a self-healing AI assistant: AstrBot + DeepSeek + a hand-written **MCP server (21 tools)**, a zero-token watchdog that re-sends missed pushes, an important-mail doorbell (Gmail → WEB.DE → QQ), MCP-over-SSH collaboration with Claude / Codex, and a 26-check acceptance script. 10 chapters of docs. |
 | **[AniTrack](https://github.com/leonryuu29/Anitrack)** | Full-stack anime library with Next.js, NestJS and MongoDB: bilingual metadata, Berlin-time timetable, activity heatmaps, OpenAPI contracts and 26 automated checks. |
 | **[Big-Data-Praktikum](https://github.com/leonryuu29/Big-Data-Praktikum)** | Redis + Yelp and Cassandra + MovieLens workflows: query-driven tables, CQL, autocomplete, CI and 77 passing tests across both practicals. |
 | **[YOLOv3 Traffic Counter](https://github.com/leonryuu29/yolov3-traffic-counter)** | OpenCV DNN + SORT vehicle pipeline with line-crossing counts, speed estimation, tests, a technical paper and reproducible model setup. |
