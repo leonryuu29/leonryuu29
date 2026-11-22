@@ -17,7 +17,8 @@
 ### About me
 
 - 🎓 Studying software engineering in Germany
-- 🧩 Interested in computer vision, full-stack products, data and embedded systems
+- 🧩 Interested in computer vision, full-stack products, data, AI agents and embedded systems
+- ☁️ Running my own cloud server with a self-healing, low-token AI assistant that lives in QQ
 - 🧪 Turning coursework into tested, documented demos
 - 🎮 Rhythm-game breaks, anime, and making random ideas real
 
@@ -31,6 +32,8 @@
 | **Web** | Next.js · NestJS · Spring Boot · Vue 3 · REST APIs · MongoDB · MySQL |
 | **Data** | Redis · Cassandra · CQL · data modelling · JSON Schema · pytest |
 | **AI & Vision** | OpenCV · computer vision · LLM prototypes · Vitest |
+| **AI Agents** | MCP servers (FastMCP) · AstrBot · DeepSeek · Claude · Codex · tool design · low-token automation |
+| **Cloud & Ops** | Ubuntu server · systemd · cron · SSH tunnels · IMAP · self-healing watchdog · acceptance scripts |
 | **Embedded** | STM32F103 · STM32CubeMX · HAL · GPIO · I2C · interrupts |
 | **Tools** | Git · GitHub Actions · Linux · Docker · Playwright · OpenAPI |
 
@@ -47,6 +50,10 @@
   <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot">
   <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=333333" alt="Linux">
+  <img src="https://img.shields.io/badge/Ubuntu_Server-E95420?style=flat-square&logo=ubuntu&logoColor=white" alt="Ubuntu Server">
+  <img src="https://img.shields.io/badge/MCP-8A2BE2?style=flat-square&logo=anthropic&logoColor=white" alt="MCP">
+  <img src="https://img.shields.io/badge/DeepSeek-4D6BFE?style=flat-square" alt="DeepSeek">
+  <img src="https://img.shields.io/badge/systemd_·_cron-333333?style=flat-square&logo=linux&logoColor=white" alt="systemd and cron">
 </p>
 
 ### Languages
@@ -60,6 +67,7 @@
 
 | Project | What's inside |
 |:--|:--|
+| **[☁️ Cloud Server](https://github.com/leonryuu29/cloud-server)** · *new* | A 2-vCPU cloud VM turned into a self-healing AI assistant: AstrBot + DeepSeek + a hand-written **MCP server (21 tools)**, a zero-token watchdog that re-sends missed pushes, an important-mail doorbell (Gmail → WEB.DE → QQ), MCP-over-SSH collaboration with Claude / Codex, and a 26-check acceptance script. 10 chapters of docs. |
 | **[AniTrack](https://github.com/leonryuu29/Anitrack)** | Full-stack anime library with Next.js, NestJS and MongoDB: bilingual metadata, Berlin-time timetable, activity heatmaps, OpenAPI contracts and 26 automated checks. |
 | **[Big-Data-Praktikum](https://github.com/leonryuu29/Big-Data-Praktikum)** | Redis + Yelp and Cassandra + MovieLens workflows: query-driven tables, CQL, autocomplete, CI and 77 passing tests across both practicals. |
 | **[YOLOv3 Traffic Counter](https://github.com/leonryuu29/yolov3-traffic-counter)** | OpenCV DNN + SORT vehicle pipeline with line-crossing counts, speed estimation, tests, a technical paper and reproducible model setup. |
@@ -68,16 +76,26 @@
 
 ### Recent highlights
 
+- ☁️ Built **Cloud Server** from zero: Linux, systemd, cron, SSH, an own MCP server, self-healing watchdog and an acceptance suite (**26 pass · 0 fail**).
+- 💸 Cut the bot's per-call context from ~20K tokens to a bounded window and made all frequent checks **zero-token** code.
 - Completed **Big Data Praktikum 2** with Cassandra + MovieLens and **54/54 tests**.
 - Shipped **AniTrack** as a tested full-stack product with OpenAPI contract checks.
 - Turned two coursework projects into reproducible public demos with CI, reports and browser or model verification.
+
+### 🤖 AI usage
+
+<p align="center">
+  <img src="assets/ai-usage.svg" width="820" alt="AI token dashboard: Codex 2.33B tokens (98% cache hit), QQ bot 624K input tokens (87% cache hit), zero-token automation">
+</p>
+
+<p align="center"><sub>Real numbers from local Codex session logs and the bot's own usage table · Claude usage isn't logged locally, so it isn't counted here.</sub></p>
 
 <details>
   <summary><strong>Current focus</strong> 🌱</summary>
 
   <br>
 
-  Turning completed coursework into clear demos while getting better at AI, data science, full-stack engineering, German and embedded systems — and keeping everything a little fun.
+  Keeping my cloud assistant light and self-healing, next: a weekly pandas report on my music taste and a Docker + Jupyter data workspace on the server. Also turning completed coursework into clear demos while getting better at AI, data science, full-stack engineering, German and embedded systems — and keeping everything a little fun.
   My private Translivestudio(German to chinese) in mobile and Pc end https://live-deutsch-studio.vercel.app/ 
 </details>
 
