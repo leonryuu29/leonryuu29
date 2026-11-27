@@ -1,81 +1,134 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="520" viewBox="0 0 820 520" role="img" aria-label="AI token usage dashboard">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="560" viewBox="0 0 840 560" role="img" aria-label="AI usage dashboard, snapshot 2026-11-27: Codex 2.88B tokens in 119 sessions since Nov 1; Claude 100M+ tokens in one build session; QQ bot 1.65M input tokens with 89% cache hit; zero-token automation">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d1117"/>
-      <stop offset="1" stop-color="#161b2e"/>
+      <stop offset="0" stop-color="#0b0f17"/>
+      <stop offset="1" stop-color="#151a2c"/>
     </linearGradient>
-    <linearGradient id="g0" x1="0" x2="1"><stop offset="0" stop-color="#d97757"/><stop offset="1" stop-color="#f4b393"/></linearGradient>
-    <linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#4d6bfe"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
-    <linearGradient id="g2" x1="0" x2="1"><stop offset="0" stop-color="#a855f7"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
-    <linearGradient id="g3" x1="0" x2="1"><stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#f97316"/></linearGradient>
+    <radialGradient id="halo" cx="0.85" cy="0" r="0.7">
+      <stop offset="0" stop-color="#7c3aed" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gC" x1="0" x2="1"><stop offset="0" stop-color="#d97757"/><stop offset="1" stop-color="#f6b89a"/></linearGradient>
+    <linearGradient id="gX" x1="0" x2="1"><stop offset="0" stop-color="#4d6bfe"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <linearGradient id="gB" x1="0" x2="1"><stop offset="0" stop-color="#a855f7"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <linearGradient id="gZ" x1="0" x2="1"><stop offset="0" stop-color="#22c55e"/><stop offset="1" stop-color="#a3e635"/></linearGradient>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <style>
-      .t  { font: 700 20px 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #e6edf3; }
-      .s  { font: 400 12px 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #8b949e; }
-      .h  { font: 600 15px 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #e6edf3; }
-      .big{ font: 800 34px 'Segoe UI', 'PingFang SC', sans-serif; }
-      .k  { font: 400 12px 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; fill: #8b949e; }
-      .v  { font: 700 13px 'Segoe UI', 'PingFang SC', sans-serif; fill: #e6edf3; }
+      text { font-family: 'Segoe UI', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+      .t   { font-size: 21px; font-weight: 700; fill: #e6edf3; }
+      .s   { font-size: 12px; fill: #8b949e; }
+      .h   { font-size: 14px; font-weight: 600; fill: #e6edf3; }
+      .tag { font-size: 11px; font-weight: 600; }
+      .big { font-size: 38px; font-weight: 800; }
+      .u   { font-size: 12px; fill: #8b949e; }
+      .k   { font-size: 11.5px; fill: #8b949e; }
+      .v   { font-size: 13px; font-weight: 700; fill: #e6edf3; }
+      .card { fill: #0d1117; fill-opacity: .82; }
       .pulse { animation: pulse 2.2s ease-in-out infinite; }
       @keyframes pulse { 0%,100% { opacity: .35 } 50% { opacity: 1 } }
       .grow { transform-box: fill-box; transform-origin: left; animation: grow 1.4s cubic-bezier(.2,.8,.2,1) both; }
+      .d1 { animation-delay: .15s } .d2 { animation-delay: .3s } .d3 { animation-delay: .45s }
       @keyframes grow { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+      .fade { animation: fade 1s ease-out both; }
+      @keyframes fade { from { opacity: 0 } to { opacity: 1 } }
     </style>
   </defs>
 
-  <rect width="820" height="520" rx="18" fill="url(#bg)"/>
-  <rect x="1" y="1" width="818" height="518" rx="17" fill="none" stroke="#30363d"/>
+  <rect width="840" height="560" rx="18" fill="url(#bg)"/>
+  <rect width="840" height="560" rx="18" fill="url(#halo)"/>
+  <rect x="1" y="1" width="838" height="558" rx="17" fill="none" stroke="#30363d"/>
 
   <circle cx="34" cy="38" r="6" fill="#2ea043" filter="url(#glow)" class="pulse"/>
   <text x="50" y="45" class="t">AI Token Dashboard</text>
-  <text x="250" y="45" class="s">· 实测数据，不是估算 · snapshot 2026-11-22</text>
+  <text x="806" y="45" class="s" text-anchor="end">measured, not estimated · snapshot 2026-11-27</text>
 
-  <!-- Claude -->
-  <rect x="24" y="68" width="380" height="210" rx="14" fill="#0d1117" stroke="#44291f"/>
-  <text x="44" y="98" class="h">✳️ Claude · Opus</text>
-  <text x="384" y="98" class="s" text-anchor="end">remote dev &amp; ops</text>
-  <text x="44" y="142" class="big" fill="url(#g0)">100M+</text>
-  <text x="44" y="162" class="s">tokens · one Cloud Server build session · 256 requests</text>
-  <rect x="44" y="176" width="340" height="8" rx="4" fill="#21262d"/>
-  <rect x="44" y="176" width="337" height="8" rx="4" fill="url(#g0)" class="grow"/>
-  <text x="44" y="206" class="k">cache read</text><text x="384" y="206" class="v" text-anchor="end">99.9M · 99%</text>
-  <text x="44" y="230" class="k">output</text><text x="384" y="230" class="v" text-anchor="end">241K</text>
-  <text x="44" y="254" class="k">where it went</text><text x="384" y="254" class="v" text-anchor="end">context 68% · PC &amp; server 25%</text>
+  <!-- ============ Codex (top-left, the big one) ============ -->
+  <g>
+    <rect x="24" y="68" width="390" height="220" rx="14" class="card" stroke="#1e3a8a"/>
+    <rect x="24" y="68" width="390" height="4" rx="2" fill="url(#gX)"/>
+    <text x="44" y="100" class="h">⚙️ Codex · DeepSeek Flash</text>
+    <rect x="300" y="86" width="94" height="20" rx="10" fill="#1e3a8a" fill-opacity=".45"/>
+    <text x="347" y="100" class="tag" fill="#93c5fd" text-anchor="middle">daily coding</text>
+    <text x="44" y="150" class="big" fill="url(#gX)">2.88B</text>
+    <text x="176" y="150" class="u">tokens</text>
+    <text x="44" y="172" class="s">119 sessions since 11/01 · from Codex's local thread DB</text>
 
-  <!-- Codex -->
-  <rect x="416" y="68" width="380" height="210" rx="14" fill="#0d1117" stroke="#1f2a44"/>
-  <text x="436" y="98" class="h">⚙️ Codex · DeepSeek Flash</text>
-  <text x="776" y="98" class="s" text-anchor="end">daily coding</text>
-  <text x="436" y="142" class="big" fill="url(#g1)">2.33B</text>
-  <text x="436" y="162" class="s">tokens · 92 sessions since 11/01</text>
-  <rect x="436" y="176" width="340" height="8" rx="4" fill="#21262d"/>
-  <rect x="436" y="176" width="333" height="8" rx="4" fill="url(#g1)" class="grow"/>
-  <text x="436" y="206" class="k">cache hit</text><text x="776" y="206" class="v" text-anchor="end">98%</text>
-  <text x="436" y="230" class="k">output</text><text x="776" y="230" class="v" text-anchor="end">3.31M</text>
-  <text x="436" y="254" class="k">reasoning</text><text x="776" y="254" class="v" text-anchor="end">1.38M</text>
+    <text x="44" y="204" class="k">growth this week</text>
+    <rect x="44" y="212" width="350" height="10" rx="5" fill="#1f2937"/>
+    <rect x="44" y="212" width="350" height="10" rx="5" fill="url(#gX)" class="grow"/>
+    <rect x="44" y="212" width="283" height="10" rx="5" fill="#3b4a6b" class="grow"/>
+    <text x="44" y="240" class="k">11/22 · 2.33B</text>
+    <text x="394" y="240" class="k" text-anchor="end">11/27 · 2.88B  (+550M)</text>
+    <text x="44" y="270" class="k">cache hit</text><text x="104" y="270" class="v">98%</text>
+    <text x="140" y="270" class="k">(11/22)</text>
+    <text x="312" y="270" class="k" text-anchor="end">sessions</text><text x="394" y="270" class="v" text-anchor="end">92 → 119</text>
+  </g>
 
-  <!-- 大肥鱼 -->
-  <rect x="24" y="290" width="380" height="210" rx="14" fill="#0d1117" stroke="#2d1f44"/>
-  <text x="44" y="320" class="h">🐋 大肥鱼 · QQ bot</text>
-  <text x="384" y="320" class="s" text-anchor="end">DeepSeek · on my server</text>
-  <text x="44" y="364" class="big" fill="url(#g2)">624K</text>
-  <text x="44" y="384" class="s">input tokens · live since 11/21</text>
-  <rect x="44" y="398" width="340" height="8" rx="4" fill="#21262d"/>
-  <rect x="44" y="398" width="296" height="8" rx="4" fill="url(#g2)" class="grow"/>
-  <text x="44" y="428" class="k">cache hit</text><text x="384" y="428" class="v" text-anchor="end">87%</text>
-  <text x="44" y="452" class="k">output · avg reply</text><text x="384" y="452" class="v" text-anchor="end">6.2K · 2.4 s</text>
-  <text x="44" y="476" class="k">daily pushes</text><text x="384" y="476" class="v" text-anchor="end">11 + important mail</text>
+  <!-- ============ Claude (top-right) ============ -->
+  <g>
+    <rect x="426" y="68" width="390" height="220" rx="14" class="card" stroke="#5b2f22"/>
+    <rect x="426" y="68" width="390" height="4" rx="2" fill="url(#gC)"/>
+    <text x="446" y="100" class="h">✳️ Claude · Opus</text>
+    <rect x="680" y="86" width="116" height="20" rx="10" fill="#5b2f22" fill-opacity=".5"/>
+    <text x="738" y="100" class="tag" fill="#f6b89a" text-anchor="middle">remote dev &amp; ops</text>
+    <text x="446" y="150" class="big" fill="url(#gC)">100M+</text>
+    <text x="580" y="150" class="u">tokens</text>
+    <text x="446" y="172" class="s">one Cloud Server build session · 256 requests</text>
 
-  <!-- zero token -->
-  <rect x="416" y="290" width="380" height="210" rx="14" fill="#0d1117" stroke="#44321f"/>
-  <text x="436" y="320" class="h">🐕 Zero-token automation</text>
-  <text x="776" y="320" class="s" text-anchor="end">code first</text>
-  <text x="436" y="364" class="big" fill="url(#g3)">0</text>
-  <text x="462" y="364" class="s">tokens per check</text>
-  <circle cx="442" cy="400" r="4" fill="#f59e0b" class="pulse"/><text x="454" y="404" class="k">watchdog · every 10 min · 0.44 s · 33 MB</text>
-  <circle cx="442" cy="424" r="4" fill="#f59e0b" class="pulse"/><text x="454" y="428" class="k">mail doorbell · wakes the bot only for real mail</text>
-  <circle cx="442" cy="448" r="4" fill="#f59e0b" class="pulse"/><text x="454" y="452" class="k">context capped at 30 turns (was 20K/call)</text>
-  <circle cx="442" cy="472" r="4" fill="#f59e0b" class="pulse"/><text x="454" y="476" class="k">PC agents load 7 tools · ≈1K tokens</text>
+    <text x="446" y="204" class="k">where it went</text>
+    <rect x="446" y="212" width="350" height="10" rx="5" fill="#1f2937"/>
+    <rect x="446" y="212" width="238" height="10" rx="5" fill="url(#gC)" class="grow"/>
+    <rect x="684" y="212" width="88" height="10" fill="#b45309" class="grow"/>
+    <text x="446" y="240" class="k">context 68%</text>
+    <text x="796" y="240" class="k" text-anchor="end">PC &amp; server work 25%</text>
+    <text x="446" y="270" class="k">cache read</text><text x="510" y="270" class="v">99%</text>
+    <text x="560" y="270" class="k">output</text><text x="604" y="270" class="v">241K</text>
+    <text x="796" y="270" class="k" text-anchor="end">lower bound · 11/22</text>
+  </g>
+
+  <!-- ============ QQ bot (bottom-left) ============ -->
+  <g>
+    <rect x="24" y="300" width="390" height="220" rx="14" class="card" stroke="#581c87"/>
+    <rect x="24" y="300" width="390" height="4" rx="2" fill="url(#gB)"/>
+    <text x="44" y="332" class="h">🐋 大肥鱼 · QQ bot</text>
+    <rect x="276" y="318" width="118" height="20" rx="10" fill="#581c87" fill-opacity=".5"/>
+    <text x="335" y="332" class="tag" fill="#f0abfc" text-anchor="middle">DeepSeek · my VM</text>
+    <text x="44" y="382" class="big" fill="url(#gB)">1.65M</text>
+    <text x="168" y="382" class="u">input tokens</text>
+    <text x="44" y="404" class="s">109 LLM calls since 11/21 · from AstrBot's own stats table</text>
+
+    <text x="44" y="436" class="k">cache hit</text>
+    <rect x="44" y="444" width="350" height="10" rx="5" fill="#1f2937"/>
+    <rect x="44" y="444" width="312" height="10" rx="5" fill="url(#gB)" class="grow"/>
+    <text x="394" y="472" class="v" text-anchor="end">89%</text>
+    <text x="44" y="472" class="k">1.47M of 1.65M input served from cache</text>
+    <text x="44" y="502" class="k">output</text><text x="88" y="502" class="v">16K</text>
+    <text x="140" y="502" class="k">avg reply</text><text x="198" y="502" class="v">2.0 s</text>
+    <text x="250" y="502" class="k">pushes/day</text><text x="316" y="502" class="v">11 + mail</text>
+  </g>
+
+  <!-- ============ Zero-token automation (bottom-right) ============ -->
+  <g>
+    <rect x="426" y="300" width="390" height="220" rx="14" class="card" stroke="#14532d"/>
+    <rect x="426" y="300" width="390" height="4" rx="2" fill="url(#gZ)"/>
+    <text x="446" y="332" class="h">🐕 Zero-token automation</text>
+    <rect x="714" y="318" width="82" height="20" rx="10" fill="#14532d" fill-opacity=".6"/>
+    <text x="755" y="332" class="tag" fill="#86efac" text-anchor="middle">code first</text>
+    <text x="446" y="382" class="big" fill="url(#gZ)">0</text>
+    <text x="484" y="382" class="u">tokens per check</text>
+    <text x="446" y="404" class="s">if code can do it, the model doesn't</text>
+
+    <circle cx="452" cy="432" r="3.5" fill="#22c55e"/>
+    <text x="464" y="436" class="k">watchdog · every 10 min · 0.44 s · 33 MB</text>
+    <circle cx="452" cy="456" r="3.5" fill="#22c55e"/>
+    <text x="464" y="460" class="k">mail doorbell · wakes the bot only for real mail</text>
+    <circle cx="452" cy="480" r="3.5" fill="#22c55e"/>
+    <text x="464" y="484" class="k">context capped at 30 turns (was ~20K tokens/call)</text>
+    <circle cx="452" cy="504" r="3.5" fill="#22c55e"/>
+    <text x="464" y="508" class="k">PC agents load only 7 tools · ≈1K tokens</text>
+  </g>
+
+  <text x="420" y="545" class="s" text-anchor="middle">Codex &amp; bot re-counted 2026-11-27 · Claude figure from the 11/22 build session meter</text>
 </svg>
